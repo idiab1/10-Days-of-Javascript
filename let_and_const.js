@@ -30,3 +30,13 @@ We then print area as our first line of output and perimeter as our second line 
 */
 
 
+// ----->>>> Solution
+const PI = Math.PI; 
+function area_perimeter(r){
+
+  let area = PI * r*r;
+  let perimeter = 2 * PI * r;
+  return area + '\n' + perimeter;
+}
+
+console.log(area_perimeter(2.6))
